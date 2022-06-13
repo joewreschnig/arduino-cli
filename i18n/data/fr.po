@@ -1,6 +1,6 @@
 # 
 # Translators:
-# Alix Anneraud, 2021
+# Alix ANNERAUD, 2021
 # CLI team <prj_cli_team@arduino.cc>, 2022
 # 
 msgid ""
@@ -1178,7 +1178,7 @@ msgid "Global variables use %[1]s bytes of dynamic memory."
 msgstr "Les variables globales utilisent %[1]s octets de mémoire dynamique."
 
 #: cli/core/list.go:84 cli/core/search.go:114 cli/monitor/monitor.go:195
-#: cli/outdated/outdated.go:62
+#: cli/outdated/outdated.go:80
 msgid "ID"
 msgstr ""
 
@@ -1216,7 +1216,7 @@ msgstr "Installé"
 msgid "Installed %s"
 msgstr ""
 
-#: cli/outdated/outdated.go:62 cli/outdated/outdated.go:72
+#: cli/outdated/outdated.go:80 cli/outdated/outdated.go:89
 #: cli/update/update.go:82 cli/update/update.go:92
 msgid "Installed version"
 msgstr ""
@@ -1408,7 +1408,7 @@ msgstr ""
 msgid "Library installed"
 msgstr ""
 
-#: cli/outdated/outdated.go:72 cli/update/update.go:92
+#: cli/outdated/outdated.go:89 cli/update/update.go:92
 msgid "Library name"
 msgstr ""
 
@@ -1535,7 +1535,7 @@ msgid "Multiple libraries were found for \"%[1]s\""
 msgstr "Plusieurs bibliothèque trouvées pour \"%[1]s\""
 
 #: cli/board/details.go:193 cli/core/list.go:84 cli/core/search.go:114
-#: cli/lib/list.go:124 cli/outdated/outdated.go:62
+#: cli/lib/list.go:124 cli/outdated/outdated.go:80
 msgid "Name"
 msgstr ""
 
@@ -1543,7 +1543,7 @@ msgstr ""
 msgid "Name: \"%s\""
 msgstr ""
 
-#: cli/outdated/outdated.go:62 cli/outdated/outdated.go:72
+#: cli/outdated/outdated.go:80 cli/outdated/outdated.go:89
 #: cli/update/update.go:82 cli/update/update.go:92
 msgid "New version"
 msgstr ""

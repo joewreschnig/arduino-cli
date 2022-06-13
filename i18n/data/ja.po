@@ -1176,7 +1176,7 @@ msgid "Global variables use %[1]s bytes of dynamic memory."
 msgstr "グローバル変数は%[1]sバイトのRAMを使用しています。"
 
 #: cli/core/list.go:84 cli/core/search.go:114 cli/monitor/monitor.go:195
-#: cli/outdated/outdated.go:62
+#: cli/outdated/outdated.go:80
 msgid "ID"
 msgstr ""
 
@@ -1214,7 +1214,7 @@ msgstr "インストール済"
 msgid "Installed %s"
 msgstr ""
 
-#: cli/outdated/outdated.go:62 cli/outdated/outdated.go:72
+#: cli/outdated/outdated.go:80 cli/outdated/outdated.go:89
 #: cli/update/update.go:82 cli/update/update.go:92
 msgid "Installed version"
 msgstr ""
@@ -1406,7 +1406,7 @@ msgstr ""
 msgid "Library installed"
 msgstr ""
 
-#: cli/outdated/outdated.go:72 cli/update/update.go:92
+#: cli/outdated/outdated.go:89 cli/update/update.go:92
 msgid "Library name"
 msgstr ""
 
@@ -1531,7 +1531,7 @@ msgid "Multiple libraries were found for \"%[1]s\""
 msgstr "「%[1]s」に対して複数のライブラリが見つかりました"
 
 #: cli/board/details.go:193 cli/core/list.go:84 cli/core/search.go:114
-#: cli/lib/list.go:124 cli/outdated/outdated.go:62
+#: cli/lib/list.go:124 cli/outdated/outdated.go:80
 msgid "Name"
 msgstr ""
 
@@ -1539,7 +1539,7 @@ msgstr ""
 msgid "Name: \"%s\""
 msgstr ""
 
-#: cli/outdated/outdated.go:62 cli/outdated/outdated.go:72
+#: cli/outdated/outdated.go:80 cli/outdated/outdated.go:89
 #: cli/update/update.go:82 cli/update/update.go:92
 msgid "New version"
 msgstr ""

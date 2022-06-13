@@ -36,11 +36,11 @@ msgstr ""
 
 #: arduino/discovery/discovery.go:84
 msgid "%[1]s, port: %[2]s"
-msgstr ""
+msgstr "%[1]s , المنفذ : %[2]s"
 
 #: arduino/discovery/discovery.go:81
 msgid "%[1]s, ports: %[2]s"
-msgstr ""
+msgstr "%[1]s , المنافذ : %[2]s"
 
 #: arduino/discovery/discovery.go:78
 msgid "%[1]s, protocol version: %[2]d"
@@ -56,11 +56,11 @@ msgstr "%s و %s لا يمكن استخدامهما معا"
 
 #: cli/output/rpc_progress.go:75
 msgid "%s downloaded"
-msgstr ""
+msgstr "%s تم تحميله بنجاح"
 
 #: commands/bundled_tools.go:53
 msgid "%s installed"
-msgstr ""
+msgstr "%s تم تثبيته بنجاح"
 
 #: cli/lib/check_deps.go:99
 msgid "%s is already installed."
@@ -112,6 +112,8 @@ msgid ""
 "--git-url and --zip-path flags allow installing untrusted files, use it at "
 "your own risk."
 msgstr ""
+"flags الخاصة ب --git-url و --zip-path تسمح بتثبيت ملفات غير موثوقة , "
+"استخدمها على مسؤوليتك الخاصة"
 
 #: cli/updater/updater.go:70
 msgid "A new release of Arduino CLI is available:"
@@ -253,7 +255,7 @@ msgstr "اسم اللوحة"
 
 #: cli/board/details.go:121
 msgid "Board version:"
-msgstr ""
+msgstr "نسخة اللوحة :"
 
 #: legacy/builder/merge_sketch_with_bootloader.go:69
 msgid "Bootloader file specified but missing: %[1]s"
@@ -261,7 +263,7 @@ msgstr "ملف محمل الإقلاع تم تحدديده لكن مفقود:  %
 
 #: cli/compile/compile.go:102
 msgid "Builds of 'core.a' are saved into this path to be cached and reused."
-msgstr ""
+msgstr "Builds الخاصة ب 'core.a' تحفظ في هذا المسار لتحفظ و يعاد استخدامها"
 
 #: arduino/resources/index.go:45
 msgid "Can't create data directory %s"
@@ -298,7 +300,7 @@ msgstr "تعذر كتابة ملف التهيئة : %v"
 
 #: commands/compile/compile.go:161
 msgid "Cannot create build cache directory"
-msgstr ""
+msgstr "تعذر انشاء مجلد لل \"build cache\""
 
 #: commands/compile/compile.go:136
 msgid "Cannot create build directory"
@@ -318,15 +320,15 @@ msgstr "تعذر انشاء مسار مؤقت"
 
 #: arduino/errors.go:762
 msgid "Cannot create temp file"
-msgstr ""
+msgstr "تعذر انشاء ملف temp"
 
 #: commands/debug/debug.go:67
 msgid "Cannot execute debug tool"
-msgstr ""
+msgstr "تعذر تشغيل اداة debug"
 
 #: commands/board/attach.go:107
 msgid "Cannot export sketch metadata"
-msgstr ""
+msgstr "تعذر تصدير البيانات الوصفية -metadata- للمشروع "
 
 #: cli/config/init.go:72 cli/config/init.go:83
 msgid "Cannot find absolute path: %v"
@@ -350,11 +352,11 @@ msgstr ""
 
 #: commands/core/install.go:154
 msgid "Cannot upgrade platform"
-msgstr ""
+msgstr "تعذر تحديث المنصة"
 
 #: cli/lib/search.go:171
 msgid "Category: %s"
-msgstr ""
+msgstr "الفئة : %s"
 
 #: cli/lib/check_deps.go:37 cli/lib/check_deps.go:38
 msgid "Check dependencies status for the specified library."
@@ -1181,7 +1183,7 @@ msgid "Global variables use %[1]s bytes of dynamic memory."
 msgstr "المتغيرات العامة تستخدم  %[1]s بايت من الذاكرة المتغيرة."
 
 #: cli/core/list.go:84 cli/core/search.go:114 cli/monitor/monitor.go:195
-#: cli/outdated/outdated.go:62
+#: cli/outdated/outdated.go:80
 msgid "ID"
 msgstr ""
 
@@ -1219,7 +1221,7 @@ msgstr "تم التنصيب"
 msgid "Installed %s"
 msgstr ""
 
-#: cli/outdated/outdated.go:62 cli/outdated/outdated.go:72
+#: cli/outdated/outdated.go:80 cli/outdated/outdated.go:89
 #: cli/update/update.go:82 cli/update/update.go:92
 msgid "Installed version"
 msgstr "النسخة المثبتة "
@@ -1413,7 +1415,7 @@ msgstr "فشل تثبيت المكتبة"
 msgid "Library installed"
 msgstr "المكتبة مثبتة"
 
-#: cli/outdated/outdated.go:72 cli/update/update.go:92
+#: cli/outdated/outdated.go:89 cli/update/update.go:92
 msgid "Library name"
 msgstr "اسم المكتبة"
 
@@ -1543,7 +1545,7 @@ msgid "Multiple libraries were found for \"%[1]s\""
 msgstr "العثور على عدة مكتبات لـ\"%[1]s\""
 
 #: cli/board/details.go:193 cli/core/list.go:84 cli/core/search.go:114
-#: cli/lib/list.go:124 cli/outdated/outdated.go:62
+#: cli/lib/list.go:124 cli/outdated/outdated.go:80
 msgid "Name"
 msgstr "الاسم"
 
@@ -1551,7 +1553,7 @@ msgstr "الاسم"
 msgid "Name: \"%s\""
 msgstr "الاسم\"%s\""
 
-#: cli/outdated/outdated.go:62 cli/outdated/outdated.go:72
+#: cli/outdated/outdated.go:80 cli/outdated/outdated.go:89
 #: cli/update/update.go:82 cli/update/update.go:92
 msgid "New version"
 msgstr "نسخة جديدة"
